@@ -4,3 +4,64 @@
 
 layout: home
 ---
+
+<section id="slider" class="slider-element slider-parallax swiper_wrapper min-vh-60 min-vh-md-100 include-header">
+    <div class="slider-inner">
+        <div class="swiper-container swiper-parent">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="container">
+                        <div class="slider-caption  ">
+                            <h2 data-animate="fadeInUp" style="color:#00a3ad">Codeur Academy  </h2>
+                            <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">
+                                Une formation en ligne pour se former en programmation informatique (front-end et full-stack).
+                            </p>
+                            <p  data-animate="fadeInUp" data-delay="200">
+                                <a href="/formations" class="button button-3d  ">Nos formations</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide-bg" style="background-image: url('/Content/CodeurAcademy/images/slider/slide1.jpg');"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="container">
+                        <div class="slider-caption">
+                            <h2 data-animate="fadeInUp" style="color: #00a3ad">Formation</h2>
+                            <h3 data-animate="fadeInUp" data-delay="150" style="color: #00a3ad">Développeur WEB Front-End</h3>
+                            <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">
+                                Programme 90% pratique. Vous serez capable de réaliser des sites web et des applications dynamiques de manière autonome
+                                et intégrer le marché du travail en tant développeur Web Front-End.
+                            </p>
+                            <p data-animate="fadeInUp" data-delay="200">
+                                <a href="/formation-front-end" class="button  button-3d">Parcours de formation</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide-bg" style="background-image: url('/Content/CodeurAcademy/images/slider/slide-frontend.jpg'); background-position: center top; "></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="container">
+                        <div class="slider-caption">
+                            <h2 data-animate="fadeInUp" style="color: #00a3ad">Formation</h2>
+                            <h3 data-animate="fadeInUp" data-delay="150" style="color: #00a3ad">Développeur WEB Full-Stack</h3>
+                            <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">
+                                Un Bootcamp en ligne, 90% pratique pour devenir un développeur WEB (Front-End et
+                                et Back-End). Vous développerez simultanément les 3 axes de compétences visées :
+                                techniques, fonctionnelles et soft-skills IT.
+                            </p>
+                            <p data-animate="fadeInUp" data-delay="200">
+                                <a href="/formation-full-stack" class="button  button-3d">Parcours de formation</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide-bg" style="        background-image: url('/Content/CodeurAcademy/images/slider/slide-frontend.jpg');
+        background-position: center top;
+"></div>
+                </div>
+            </div>
+            <div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
+            <div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
+        </div>
+        <a href="#" data-scrollto="#content" data-offset="100" class="one-page-arrow dark"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+    </div>
+</section>
