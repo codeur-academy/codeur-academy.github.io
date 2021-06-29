@@ -1,0 +1,18 @@
+{% assign categories = '' | split: '' %}
+{% for formation in site.formations %}
+    {% assign categories = categories | concat: formation.categories   %}
+{% endfor %}
+{% for category in categories %}
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 id="{{ category | replace: " ","-" }}">{{ category}}</h2>
+                        </div>
+					</div>
+                    <div class="row">
+                       {% for formation in site.formations %}
+                            {% if formation.categories contains category   %}
+                            {% include formationbox.html %}
+                            {% endif %}
+                        {% endfor %} 
+					</div>
+{% endfor %}

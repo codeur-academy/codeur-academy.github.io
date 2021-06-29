@@ -1,10 +1,12 @@
 ---
-layout: post
+layout: formation
 title:  "Initiation à Git et Github"
-categories: [formation]
-tags: [git,github]
+categories: [Outils]
+technologies: [git,github]
 image: assets/images/notion-base-html-css.png
 description: "Initiation à la gestion de version avec git et github.com."
+date : 01/04/2021
+author: essarraj
 rating: 4.5
 ---
 

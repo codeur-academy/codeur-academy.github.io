@@ -4,7 +4,7 @@ description: Une formation en ligne pour se former en programmation ( front-end 
 baseurl: ""
 url: "https://codeur-academy.com" 
 permalink: /:title/
-
+include: ["_pages"]
 # Plugins
 plugins:
   - jekyll-paginate
@@ -12,7 +12,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-sitemap
-
 
 # Archives
 jekyll-archives:
@@ -52,6 +51,9 @@ exclude:
 
 # Collections
 collections:
+  formations:
+    output: true
+    permalink: /:title/
   skills:
     output: true
     permalink: /compétences/:title/

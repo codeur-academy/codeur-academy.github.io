@@ -1,0 +1,18 @@
+---
+layout: page
+---
+
+
+<h1> {{ page.title }} </h1>
+
+{{content}}
+
+
+{% if page.book %}
+<a href="{{ site.baseurl }}{{ page.book }}" class="button">E-book gratuit</a>
+{% endif %}
+{% if page.udemy %}
+<a href="{{ site.baseurl }}{{ page.udemy }}" class="button">Formation en vidéo</a>
+{% endif %}
+
+

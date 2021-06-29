@@ -1,0 +1,15 @@
+<div class="col-sm-6 col-lg-4">
+    <div class="feature-box text-center media-box fbox-bg">
+        <div class="fbox-media">
+                <img  src="{% if formation.image contains "://" %}{{ formation.image }}{% else %}{{ site.baseurl }}/{{ formation.image }}{% endif %}" alt="{{ formation.title }}"> 
+                
+        </div>
+        <div class="fbox-content">
+            <h3><a class="text-dark" href="{{ site.baseurl }}{{ formation.url }}">{{ formation.title }}</a>
+                <br><span class="subtitle">formation</span>
+            </h3>
+            <p> </p>
+            <p><a href="{{ site.baseurl }}{{ formation.url }}" class="button">Commencer</a></p>
+        </div>
+    </div>
+</div>

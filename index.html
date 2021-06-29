@@ -1,31 +1,27 @@
 ---
-
 layout: default
 ---
 
 {% include slider.html%}
+
 <section id="content">
 <div class="content-wrap">
-{% include section-about.html %}
-{% include pourquoi-codeur-academy.html %}
-{% include divider-center.html %}
+  <div class="container clearfix">
+      <div class="mx-auto center clearfix" style="max-width: 900px;">
+            <h1>Nos formations</h1>
+           
+      </div>
+
+      
+      {% include nos-formations.html %}
+      <div class="line"></div>
+      <div class="mx-auto center clearfix" style="max-width: 900px;">
+        
+        <a href="/formations" class="button button-3d button-dark button-large ">
+          voir tous les formations
+        </a>
+  </div>
+  </div>          
 </div>
 
-<div class="container clearfix">
-    <div class="mx-auto center clearfix" style="max-width: 900px;">
-          <h1>Nos <span>modules </span> de&nbsp;formations</h1>
-          <a href="/formations" class="button button-3d button-dark button-large ">
-            découvrir
-          </a>
-    </div>
-    <div class="line"></div>
-    </div>        
-    
-    <div class="container">
-        <div class="row justify-content-center col-mb-50 mb-0">
-                    {% for post in paginator.posts %}
-                    {% include postbox.html %}
-                    {% endfor %}
-        </div>
-    </div>
 </section>
