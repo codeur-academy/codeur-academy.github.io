@@ -8,7 +8,7 @@ description: "Gestion des clients dans e-commerce : pour bien apprendre la progr
 date : 01/04/2021
 author: essarraj
 rating: 4.5
-
+udemy: https://www.udemy.com/course/mini-projet-langage-csharp-et-poo-avec-code-source/?referralCode=A478A9B6D8951C43C495
 ---
 
 Ce **mini-projet** est une bonne occasion pour appliquer les notions de base de la **POO** (programmation orientée objet) que vous avez appris pendant les travaux pratique et la partie théorique de la formation **langage C#**.
