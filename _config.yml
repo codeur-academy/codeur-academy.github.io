@@ -3,16 +3,16 @@ title: Codeur Academy
 description: Une formation en ligne pour se former en programmation ( front-end et full-stack)
 baseurl: ""
 url: "https://codeur-academy.com" 
-include: ["_pages"]
 permalink: /:title/
 
 # Plugins
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-sitemap
+
 
 # Archives
 jekyll-archives:
