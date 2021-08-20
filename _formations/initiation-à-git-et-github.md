@@ -1,7 +1,7 @@
 ---
 layout: formation
 title:  "Initiation à Git et Github"
-categories: [Outils]
+categories: [front-end,Outils]
 technologies: [git,github]
 image: assets/images/notion-base-html-css.png
 description: "Initiation à la gestion de version avec git et github.com."

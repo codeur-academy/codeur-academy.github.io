@@ -1,7 +1,7 @@
 ---
 layout: formation
 title:  "Les bases de la programmation et algorithme"
-categories: [Algorithme,Programmation mobile] 
+categories: [front-end,Algorithme,Programmation mobile] 
 technologies: [algorithme]
 image: assets/images/notion-base-html-css.png
 video: https://www.youtube.com/watch?v=18dEyx7wh8k

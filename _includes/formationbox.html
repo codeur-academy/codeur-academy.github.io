@@ -1,4 +1,4 @@
-<article class="portfolio-item col-md-4 col-sm-6 col-12 {% for category in formation.categories %} pf-{{ category | slugify }} {% endfor %} ">
+<article class="portfolio-item {% if include.carousel != true %} col-md-4 col-sm-6 col-12{% endif%} {% for category in formation.categories %} pf-{{ category | slugify }} {% endfor %} ">
     <div class="grid-inner">
         <div class="portfolio-image">
             <a href="portfolio-single.html">

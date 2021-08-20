@@ -1,0 +1,12 @@
+<div class="w-100 mb-5 portfolio-single-content">
+    <div class="fancy-title title-border">
+        <h2>Démarrer la formation :</h2>
+    </div>
+
+    {% if page.book %}
+    <a href="{{ site.baseurl }}{{ page.book }}" class="button button-3d button-large button-rounded button-aqua ">E-book gratuit</a>
+    {% endif %}
+    {% if page.udemy %}
+    <a href="{{ site.baseurl }}{{ page.udemy }}" class="button button-3d button-large button-rounded button-yellow button-light">Formation en vidéo</a>
+    {% endif %}
+</div>
