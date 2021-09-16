@@ -1,0 +1,32 @@
+<div class="entry col-12">
+    <div class="grid-inner row g-0">
+        <div class="col-md-4">
+            <div class="entry-image">
+                <a href="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" data-lightbox="image">
+                    <img  src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}"> 
+                </a>
+            </div>
+        </div>
+        <div class="col-md-8 ps-md-4">
+            <div class="entry-title title-sm">
+                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            </div>
+            <div class="entry-meta">
+                <ul>
+                    <li><i class="icon-calendar3"></i> {{ post.date | date: "%-d %B %Y" }}</li>
+                    <li><i class="icon-folder-open"></i> 
+                        {% for category in post.categories %}
+                        <a href="/categories/#{{category}}">{{category}}</a>
+                         {% if forloop.last == false %} , {% endif %} 
+                        {% endfor %}
+                    </li>
+                    <!-- <li><a href="blog-single.html#comments"><i class="icon-comments"></i> 10</a></li> -->
+                </ul>
+            </div>
+            <div class="entry-content">
+                <p>{{ post.excerpt  | strip_html  }}</p>
+                <a href="{{ site.baseurl }}{{ post.url }}" class="more-link">Lire la suite</a>
+            </div>
+        </div>
+    </div>
+</div>

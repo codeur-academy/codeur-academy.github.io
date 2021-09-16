@@ -3,11 +3,10 @@ locale: fr_FR
 title: Codeur Academy
 description: Une formation en ligne pour se former en programmation ( front-end et full-stack)
 baseurl: ""
-
 permalink: /:title/
 include: ["_pages"]
 environment: production
-
+excerpt_separator: <!-- end introduction -->
 url: "https://codeur-academy.com" 
 # Plugins
 plugins:
