@@ -6,7 +6,6 @@ tags: [Internet,HTML,CSS,JavaScript,Git,GitHub,sécurité Web,npm,yarn,BEM,Sass,
 image: images/développeur-frontend.jpg
 description: "Guide étape par étape pour devenir un développeur frontend moderne"
 rating: 4
-
 ---
 
 Pour devenir un développeur frontend expérimenté, je vous propose un chemin d'apprentissage en trois phases ou niveaux :

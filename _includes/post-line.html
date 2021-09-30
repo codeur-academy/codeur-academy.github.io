@@ -24,7 +24,7 @@
                 </ul>
             </div>
             <div class="entry-content">
-                <p>{{ post.excerpt  | strip_html  }}</p>
+                <p>{{ post.excerpt | strip_html  | truncatewords:30 }}</p>
                 <a href="{{ site.baseurl }}{{ post.url }}" class="more-link">Lire la suite</a>
             </div>
         </div>
