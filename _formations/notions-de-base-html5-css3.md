@@ -1,6 +1,6 @@
 ---
 layout: formation
-title:  "Initiation à HTML5 et CSS3"
+title:  "Bien démarrer avec HTML5 et CSS3"
 categories: [front-end]
 technologies: [html5,css3]
 book: /html5-css3
