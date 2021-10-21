@@ -7,6 +7,7 @@ book: /html5-css3
 image: assets/images/formations/html5-css3/formation-html5-css3.jpg
 description: "Formation sur les notions de base du langage HTML 5 et CSS 3 pour la création des sites web."
 rating: 4.5
+udemy: https://www.udemy.com/course/bien-demarrer-avec-html5-et-css3/?referralCode=E49B3AD09FE46075B7C6
 author : essarraj
 created_date : 20/08/2021
 ---
