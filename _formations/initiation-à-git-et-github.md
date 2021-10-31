@@ -1,13 +1,14 @@
 ---
 layout: formation
-title:  "Initiation à Git et Github"
+title:  "Bien démarrer avec Git et Github"
 categories: [front-end,Outils]
 technologies: [git,github]
-image: assets/images/notion-base-html-css.png
+image: assets/images/formation-git-github.png
 description: "Initiation à la gestion de version avec git et github.com."
-date : 01/04/2021
+date : 31/10/2021
 author: essarraj
-rating: 4.5
+book: /git-github
+rating: 4
 ---
 
 Initiation à la gestion de version avec git et github.com
