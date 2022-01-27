@@ -1,16 +1,14 @@
 <div class="col-sm-6 col-lg-4">
     <div class="feature-box text-center media-box fbox-bg">
         <div class="fbox-media">
-               
                 <img  src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}"> 
-                
         </div>
         <div class="fbox-content">
             <h3><a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                <br><span class="subtitle">formation</span>
+                <br><span class="subtitle">article</span>
             </h3>
             <p> </p>
-            <p><a href="{{ site.baseurl }}{{ post.url }}" class="button">Commencer</a></p>
+            <p><a href="{{ site.baseurl }}{{ post.url }}" class="button">Lire</a></p>
         </div>
     </div>
 </div>

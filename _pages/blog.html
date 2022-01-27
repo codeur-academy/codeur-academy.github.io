@@ -1,17 +1,83 @@
 ---
 layout: default
-title: Coaching personnalisé
+title: Blog
 permalink: /blog
 comments: false
 ---
  
-{% include page-title.html %}
+<section id="page-title">
+	<div class="container clearfix">
+		<h1>{{page.title}}</h1>
+		<span>Nous articles et guides</span>
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="/">Accueil</a></li>
+					<li class="breadcrumb-item">Blog</li>
+		        </ol>
+	</div>
+</section>
+
+
+<section id="content">
+	<div class="content-wrap">
+		<div class="container clearfix">
+
+			<div class="row gutter-40 col-mb-80">
+				<!-- Post Content
+				============================================= -->
+				<div class="postcontent col-lg-9">
+
+					<!-- Posts
+					============================================= -->
+					<div id="posts" class="row gutter-40">
+
+						{% for post in site.posts %}
+						{% include post-line.html %}
+						{% endfor %}
+					
+
+					</div><!-- #posts end -->
+
+					<!-- Pager
+					============================================= -->
+					<div class="d-flex justify-content-between mt-5">
+						<a href="#" class="btn btn-outline-secondary">← Older</a>
+						<a href="#" class="btn btn-outline-dark">Newer →</a>
+					</div>
+					<!-- .pager end -->
+
+				</div><!-- .postcontent end -->
+
+				<!-- Sidebar
+				============================================= -->
+				<div class="sidebar col-lg-3">
+					<div class="sidebar-widgets-wrap">
+
+						<div class="widget clearfix">
+
+							<h4>Tags</h4>
+							<div class="tagcloud">
+
+
+{% assign tags = site.tags | sort %}
+{% for tag in tags %}
+
+<a href="/tags#{{ tag | first | slugify }}">
+	{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+</a>
+{% endfor %}
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div><!-- .sidebar end -->
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
  
-<div class="container">
-    <div class="row justify-content-center col-mb-50 mb-0">
-            
-        {% for post in site.posts %}
-                {% include postbox.html %}
-                {% endfor %}
-    </div>
-</div>

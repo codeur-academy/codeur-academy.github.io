@@ -14,12 +14,24 @@
 	<link rel="stylesheet" href="/css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="/css/magnific-popup.css" type="text/css" />
 	<link rel="stylesheet" href="/css/custom.css" type="text/css" />
+    <script data-ad-client="ca-pub-3472401459537938" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+   
+    {% if site.environment == 'production' %}
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CR3NFZ86T4"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-CR3NFZ86T4');
+        </script>
+     {% endif %}
+
 </head>
 
 <body class="stretched">
 
 <div id="wrapper" class="clearfix">
-        
     <header id="header" class="full-header transparent-header" data-sticky-class="not-dark">
         <div id="header-wrap">
             <div class="container">
@@ -40,14 +52,7 @@
         </div>
         <div class="header-wrap-clone"></div>
     </header>
-
     {{ content }}
-    
-
-    
-    
-    
-
     <footer id="footer" class="dark">
         <div class="container">
             <div class="footer-widgets-wrap">
