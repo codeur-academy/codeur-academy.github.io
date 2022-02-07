@@ -9,6 +9,7 @@ video: https://www.youtube.com/embed/18dEyx7wh8k?v=18dEyx7wh8k
 date : 01/04/2020
 author: essarraj
 rating: 5
+book: /algorithme
 udemy: https://www.udemy.com/course/les-bases-de-la-programmation-et-algorithme/?referralCode=0AB16423D1592F34D295
 ---
 

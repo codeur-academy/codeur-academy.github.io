@@ -51,6 +51,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - README.md
+  - docs
 
 # Collections
 collections:
