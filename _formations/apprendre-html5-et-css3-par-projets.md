@@ -1,6 +1,7 @@
 ---
 layout: formation
 title:  "Apprendre le HTML5 et CSS3 par projets"
+link_title : "HTML5 et CSS3 par projets"
 description: "Réalisation des projets réels destinés aux débutants avec conseils, orientations et code source."
 categories: [front-end]
 technologies: [html5,css3]

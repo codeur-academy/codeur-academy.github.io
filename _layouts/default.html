@@ -15,7 +15,6 @@
 	<link rel="stylesheet" href="/css/magnific-popup.css" type="text/css" />
 	<link rel="stylesheet" href="/css/custom.css" type="text/css" />
     <script data-ad-client="ca-pub-3472401459537938" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-   
     {% if site.environment == 'production' %}
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-CR3NFZ86T4"></script>
@@ -32,26 +31,7 @@
 <body class="stretched">
 
 <div id="wrapper" class="clearfix">
-    <header id="header" class="full-header transparent-header" data-sticky-class="not-dark">
-        <div id="header-wrap">
-            <div class="container">
-                <div class="header-row">
-                    <div id="logo">
-                        <a href="/" class="standard-logo" data-dark-logo="/Content/CodeurAcademy/images/logo-codeur-academy.png"><img src="/Content/CodeurAcademy/images/logo-codeur-academy.png" alt="Codeur Academy"></a>
-                        <a href="/" class="retina-logo" data-dark-logo="/Content/CodeurAcademy/images/logo-codeur-academy.png"><img src="/Content/CodeurAcademy/images/logo-codeur-academy.png" alt="Codeur Academy"></a>
-                    </div>
-                    <div id="primary-menu-trigger">
-                        <svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-                    </div>
-
-                    {% include navigation.html %}
-
-               
-                </div>
-            </div>
-        </div>
-        <div class="header-wrap-clone"></div>
-    </header>
+    {% include menu_principale.html %}
     {{ content }}
     <footer id="footer" class="dark">
         <div class="container">

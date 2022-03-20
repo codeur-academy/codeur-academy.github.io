@@ -1,6 +1,7 @@
 ---
 layout: formation
 title:  "Bien démarrer avec Git et Github"
+link_title : "Git et Github"
 categories: [front-end,Outils]
 technologies: [git,github]
 image: assets/images/formations/formation-git-github.png

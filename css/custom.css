@@ -6,3 +6,10 @@
 -----------------------------------------------------------------*/
 
 
+#logo img {
+	height: 60px !important;
+}
+
+#header-wrap #logo img {
+	height: 60px;
+}

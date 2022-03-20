@@ -1,6 +1,7 @@
 ---
 layout: formation
 title:  "Apprendre la programmation Web : front-end"
+link_title : "programmation Web : front-end"
 categories: [front-end]
 technologies: [html5,css3]
 book: /bootcamp-front-end

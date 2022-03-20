@@ -1,9 +1,31 @@
-<nav class="primary-menu">
+<nav class="primary-menu style-5">
   <ul class="menu-container">
-    {% for item in site.data.navigation %}
-    <li class="menu-item {% if page.url == item.link %}current{% endif %}">
-      <a class="menu-link" href="{{ item.link }}">{{ item.name }}</a>
+    <li class="menu-item {% if page.url == '/' %}current{% endif %}">
+      <a class="menu-link" href="/" style="padding-top: 27px; padding-bottom: 27px;">
+        <div><i class="icon-home2"></i>Accueil<i class="icon-angle-down"></i></div>
+      </a>
     </li>
-    {% endfor %}
+    
+    <li class="menu-item sub-menu {% if page.url == '/formations' %}current{% endif %}">
+      <a class="menu-link" href="/formations" style="padding-top: 27px; padding-bottom: 27px;">
+        <div><i class="icon-user-graduate"></i>Formations<i class="icon-angle-down"></i></div></a>
+      <ul class="sub-menu-container" style="">
+        {% for item in site.formations %}
+        <li class="menu-item" style="">
+          <a class="menu-link" href="{{ item.url }}"><div>{{ item.link_title }}</div></a>
+        </li>
+        {% endfor %}
+      </ul>
+     <button class="sub-menu-trigger icon-chevron-right"></button>
+   </li>
+
+   <li class="menu-item {% if page.url == '/blog' %}current{% endif %}">
+    <a class="menu-link" href="/blog" style="padding-top: 27px; padding-bottom: 27px;">
+      <div><i class="icon-pencil2"></i>Blog<i class="icon-angle-down"></i></div>
+    </a>
+  </li>
+
+
   </ul>
 </nav>
+ 

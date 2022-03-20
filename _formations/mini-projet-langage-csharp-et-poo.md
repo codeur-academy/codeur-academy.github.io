@@ -1,6 +1,7 @@
 ---
 layout: formation
 title:  "Mini projet langage C# et POO avec code source"
+link_title : "Mini projet C#"
 categories: [Back-end]
 technologies: [csharp,poo,.net,winform]
 image: assets/images/mini-projet-langage-csharp-et-poo.jpg
