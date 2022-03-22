@@ -8,8 +8,10 @@ comments: false
 
 
 {% assign categories_formations = '' | split: '' %}
-{% for formation in site.formations %}
-{% assign categories_formations = categories_formations | concat: formation.categories   %}
+{% assign formation_ordered = site.formations | sort : "order"  %}
+
+{% for formation in formation_ordered %}
+{% assign categories_formations = categories_formations | concat: formation.categories | uniq   %}
 {% endfor %}
 
 
@@ -30,14 +32,13 @@ comments: false
 						</div>
 					</div>
 					<div id="portfolio" class="portfolio row grid-container gutter-30" data-layout="fitRows">
-						{% for formation in site.formations %}
+						{% for formation in formation_ordered %}
 						{% include formationbox.html %}
 						{% endfor %}
 					</div>
 				</div>
 			</div>
 </section>
-
 
 
 

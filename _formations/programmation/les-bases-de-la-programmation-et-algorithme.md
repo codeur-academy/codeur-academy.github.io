@@ -2,7 +2,7 @@
 layout: formation
 title:  "Les bases de la programmation et algorithme"
 link_title : "Algorithme"
-categories: [front-end,Algorithme,Programmation mobile] 
+categories: [Programmation] 
 technologies: [algorithme]
 description: Apprendre les bases et les 4 ordres de la programmation -  Affectation, Entrée/Sortie, Condition, Boucle en Pseudo-code.
 image : assets/images/formations/formation-bases-programmation-et-algorithme.jpg
@@ -12,6 +12,7 @@ author: essarraj
 rating: 5
 book: /algorithme
 udemy: https://www.udemy.com/course/les-bases-de-la-programmation-et-algorithme/?referralCode=0AB16423D1592F34D295
+order : 1
 ---
 
 Après **10 ans d’enseignement** de la formation **d’initiation à la programmation** pour les jeunes entre 18 et 25 ans. J’ai décidé de réaliser cette formation pour aider mes nouveaux apprenants à éviter les difficultés d’apprentissage de quelques notions de base.Notamment, Les difficultés que j’ai rencontré avec mes anciens apprenants pendant **mon expérience comme formateur**.

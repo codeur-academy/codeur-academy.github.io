@@ -2,7 +2,7 @@
 layout: formation
 title:  "Apprendre la programmation Web : front-end"
 link_title : "programmation Web : front-end"
-categories: [front-end]
+categories: [Front-end]
 technologies: [html5,css3]
 book: /bootcamp-front-end
 image: assets/images/formations/bootcamp-front-end.png
@@ -10,6 +10,7 @@ description: "Aide à la réalisation de 15 projets réels dans un bootcamp en l
 rating: 4.5
 author : essarraj
 created_date : 27/01/2022
+order : 15
 ---
 
 <div class="fancy-title title-border">

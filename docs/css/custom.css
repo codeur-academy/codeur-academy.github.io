@@ -13,3 +13,16 @@
 #header-wrap #logo img {
 	height: 60px;
 }
+
+#page-title {
+	padding: 1.5rem 0 !important;
+}
+#page-title h1{
+	text-transform: none !important;
+}
+
+/* Slider Caption -*/
+.slider-caption h2 {
+    font-size: 3rem !important;
+	text-transform: none !important;
+}

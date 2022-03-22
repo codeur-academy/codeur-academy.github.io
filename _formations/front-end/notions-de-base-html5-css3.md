@@ -2,7 +2,7 @@
 layout: formation
 title:  "Bien démarrer avec HTML5 et CSS3"
 link_title : "Les base du HTML5 et CSS3"
-categories: [front-end]
+categories: [Front-end]
 technologies: [html5,css3]
 book: /html5-css3
 image: assets/images/formations/html5-css3/formation-html5-css3.jpg
@@ -11,6 +11,7 @@ rating: 4.5
 udemy: https://www.udemy.com/course/bien-demarrer-avec-html5-et-css3/?referralCode=E49B3AD09FE46075B7C6
 author : essarraj
 created_date : 20/08/2021
+order : 10
 ---
 
 <div class="fancy-title title-border">

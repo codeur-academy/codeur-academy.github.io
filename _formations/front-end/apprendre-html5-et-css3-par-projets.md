@@ -3,7 +3,7 @@ layout: formation
 title:  "Apprendre le HTML5 et CSS3 par projets"
 link_title : "HTML5 et CSS3 par projets"
 description: "Réalisation des projets réels destinés aux débutants avec conseils, orientations et code source."
-categories: [front-end]
+categories: [Front-end]
 technologies: [html5,css3]
 book: /bootcamp-front-end
 udemy: https://www.udemy.com/course/apprendre-html5-et-css3-par-projets/?referralCode=153108D8498B1B8B3458
@@ -11,6 +11,7 @@ image: assets/images/formations/apprendre-html5-et-css3-par-projets.jpg
 rating: 4.7
 author : essarraj
 created_date : 17/03/2022
+order : 11
 ---
 
 <div class="fancy-title title-border">

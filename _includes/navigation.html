@@ -10,7 +10,12 @@
       <a class="menu-link" href="/formations" style="padding-top: 27px; padding-bottom: 27px;">
         <div><i class="icon-user-graduate"></i>Formations<i class="icon-angle-down"></i></div></a>
       <ul class="sub-menu-container" style="">
-        {% for item in site.formations %}
+
+        {% assign formation_ordered = site.formations | sort : "order"  %}
+        
+
+
+        {% for item in formation_ordered %}
         <li class="menu-item" style="">
           <a class="menu-link" href="{{ item.url }}"><div>{{ item.link_title }}</div></a>
         </li>
