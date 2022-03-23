@@ -1,5 +1,7 @@
 <div class="row">
-    {% for formation in site.formations %}
+    {% assign formation_ordered = site.formations | sort : "order"  %}
+
+    {% for formation in formation_ordered %}
     {% include formationbox.html %}
     {% endfor %}   
 </div>
