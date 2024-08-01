@@ -7,4 +7,6 @@ description: ''
 order: 4
 directory: développeur-web
 permalink: développeur-web/laravel
+menu_title: Laravel
+icon: icon-laravel
 ---

@@ -1,20 +1,29 @@
 <nav class="primary-menu style-5">
   <ul class="menu-container">
+
+
     <li class="menu-item {% if page.url == '/' %}current{% endif %}">
       <a class="menu-link" href="/" style="padding-top: 27px; padding-bottom: 27px;">
         <div><i class="icon-home2"></i>Accueil<i class="icon-angle-down"></i></div>
       </a>
     </li>
-    
-    <li class="menu-item sub-menu {% if page.url == '/formations' %}current{% endif %}">
+
+    {% assign formation_web = site.formations | where: "parcour_reference", "développeur-web" | sort : "order"  %}
+    {% for item in formation_web %}
+    <li class="menu-item {% if page.url == item.url %}current{% endif %}">
+      <a class="menu-link" href="{{item.url}}" style="padding-top: 27px; padding-bottom: 27px;">
+        <div><i class="{{item.icon}}"></i>{{item.menu_title}}<i class="icon-angle-down"></i></div>
+      </a>
+    </li>
+    {% endfor %}
+
+
+    <!-- <li class="menu-item sub-menu {% if page.url == '/formations' %}current{% endif %}">
       <a class="menu-link" href="/formations" style="padding-top: 27px; padding-bottom: 27px;">
         <div><i class="icon-user-graduate"></i>Formations<i class="icon-angle-down"></i></div></a>
       <ul class="sub-menu-container" style="">
 
         {% assign formation_ordered = site.formations | sort : "order"  %}
-        
-
-
         {% for item in formation_ordered %}
         <li class="menu-item" style="">
           <a class="menu-link" href="{{ item.url }}"><div>{{ item.link_title }}</div></a>
@@ -22,7 +31,7 @@
         {% endfor %}
       </ul>
      <button class="sub-menu-trigger icon-chevron-right"></button>
-   </li>
+   </li> -->
 
    <!-- <li class="menu-item {% if page.url == '/blog' %}current{% endif %}">
     <a class="menu-link" href="/blog" style="padding-top: 27px; padding-bottom: 27px;">

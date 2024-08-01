@@ -7,4 +7,6 @@ description: ''
 order: 2
 directory: développeur-web
 permalink: développeur-web/javascript
+menu_title: JS
+icon: icon-js
 ---

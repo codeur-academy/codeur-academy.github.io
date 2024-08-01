@@ -7,4 +7,6 @@ description: ''
 order: 3
 directory: développeur-web
 permalink: développeur-web/php-mysql
+menu_title: PHP
+icon: icon-php
 ---
