@@ -26,3 +26,9 @@
     font-size: 3rem !important;
 	text-transform: none !important;
 }
+.slider-caption h3 {
+    margin: 0 !important;
+}
+.slider-caption p {
+    margin-top: 10px !important;
+}

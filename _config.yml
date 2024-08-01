@@ -55,6 +55,8 @@ exclude:
 
 # Collections
 collections:
+  slides:
+    output: false
   parcours:
     output: true
   formations:
