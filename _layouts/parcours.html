@@ -1,0 +1,75 @@
+---
+layout: default
+---
+{% include page-title.html %}
+<section id="content">
+<div class="content-wrap">
+<div class="container clearfix">
+<div class="row gutter-40 col-mb-80">
+	<div class="postcontent bothsidebar col-lg-9">
+		<!-- Video or Image -->
+		<div class="w-100 mb-5 portfolio-single-image">
+			{%if page.video %}
+			<iframe src="{{page.video}}" width="500" height="281" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			{% else %}
+			<img src="/{{page.image}}" alt="{{page.title}}">
+			{% endif %}
+		</div>
+
+		<div class="w-100 mb-5 portfolio-single-content">
+			<div class="fancy-title title-border">
+				<h2>Description rapide :</h2>
+			</div>
+		
+			{{page.description}}
+			 
+		</div>
+
+		{% include liens-formation.html %}
+		
+		<div class="w-100 portfolio-single-content">
+			{{content}}
+		</div>
+		{% include liens-formation.html %}
+		<div class="line"></div>
+
+		<div class="w-100 mb-5">
+			<ul class="portfolio-meta bottommargin">
+				<li><span><i class="icon-user"></i>Créé par:</span> {{site.authors[page.author].name}}</li>
+				<li><span><i class="icon-calendar3"></i>Crée le:</span> {{page.created_date | date:"%Y-%m-%d"}}</li>
+				<li><span><i class="icon-lightbulb"></i>Compétences:</span> {{page.technologies | join:','}}</li>
+				{% if page.udemy %}
+				<li><span><i class="icon-link"></i>Lien sur Udemy :</span> <a href="{{page.udemy}}" target="_blank">Udemy</a></li>
+				{% endif %}
+			</ul>
+			{% include share.html %}
+		</div>
+
+		{% include related-formation-items.html %}
+
+
+	</div>
+
+	<div class="sidebar col-lg-3">
+		<div class="sidebar-widgets-wrap">
+			<div class="widget  clearfix">
+
+		
+				<h4>Démarrer la formation</h4>
+
+				{% if page.book %}
+				<a href="{{ site.baseurl }}{{ page.book }}" target="_blank" class="button">E-book gratuit</a>
+				{% endif %}
+				{% if page.udemy %}
+				<a href="{{ site.baseurl }}{{ page.udemy }}" target="_blank" class="button">Formation en vidéo</a>
+				{% endif %}
+			</div>
+
+
+		</div>
+	</div>
+</div>
+</div>
+</div>
+</section>
+

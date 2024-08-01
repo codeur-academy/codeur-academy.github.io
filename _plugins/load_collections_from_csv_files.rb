@@ -99,11 +99,11 @@ module Jekyll
 
           # Solution de problème de lien Hypertexte
           # Convert Roo::Link to string
-          item.each do |key, value|
-            if value.is_a?(Roo::Link)
-              item[key] = value.href  # Access and store the link's href (URL)
-            end
-          end
+          # item.each do |key, value|
+          #   if value.is_a?(Roo::Link)
+          #     item[key] = value.href  # Access and store the link's href (URL)
+          #   end
+          # end
           
         
           # Chemin de fichier

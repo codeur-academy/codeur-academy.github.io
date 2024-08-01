@@ -55,9 +55,10 @@ exclude:
 
 # Collections
 collections:
+  parcours:
+    output: true
   formations:
     output: true
-    permalink: /:title/
   skills:
     output: true
     permalink: /compétences/:title/
