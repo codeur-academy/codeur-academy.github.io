@@ -1,79 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://codeur-academy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://codeur-academy.com/" rel="alternate" type="text/html" /><updated>2022-03-23T17:34:08+01:00</updated><id>https://codeur-academy.com/feed.xml</id><title type="html">Codeur Academy</title><subtitle>Une formation en ligne pour se former en programmation ( front-end et full-stack)</subtitle><entry><title type="html">Guide pour devenir Développeur Frontend</title><link href="https://codeur-academy.com/guide-pour-devenir-d%C3%A9veloppeur-frontend/" rel="alternate" type="text/html" title="Guide pour devenir Développeur Frontend" /><published>2021-09-16T00:00:00+01:00</published><updated>2021-09-16T00:00:00+01:00</updated><id>https://codeur-academy.com/guide-pour-devenir-d%C3%A9veloppeur-frontend</id><content type="html" xml:base="https://codeur-academy.com/guide-pour-devenir-d%C3%A9veloppeur-frontend/">&lt;p&gt;Pour devenir un développeur frontend expérimenté, je vous propose un chemin d’apprentissage en trois phases ou niveaux :&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://codeur-academy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://codeur-academy.com/" rel="alternate" type="text/html" /><updated>2024-08-15T16:35:17+01:00</updated><id>https://codeur-academy.com/feed.xml</id><title type="html">Codeur Academy</title><subtitle>Une formation en ligne pour se former en programmation ( front-end et full-stack)</subtitle><entry><title type="html">Guide pour devenir Développeur Frontend</title><link href="https://codeur-academy.com/guide-pour-devenir-d%C3%A9veloppeur-frontend/" rel="alternate" type="text/html" title="Guide pour devenir Développeur Frontend" /><published>2021-09-16T00:00:00+01:00</published><updated>2021-09-16T00:00:00+01:00</updated><id>https://codeur-academy.com/guide-pour-devenir-d%C3%A9veloppeur-frontend</id><content type="html" xml:base="https://codeur-academy.com/guide-pour-devenir-d%C3%A9veloppeur-frontend/"><![CDATA[<p>Pour devenir un développeur frontend expérimenté, je vous propose un chemin d’apprentissage en trois phases ou niveaux :</p>
 
-&lt;ol&gt;
-  &lt;li&gt;Niveau débutant&lt;/li&gt;
-  &lt;li&gt;Niveau intermédiaire&lt;/li&gt;
-  &lt;li&gt;Niveau avancé&lt;/li&gt;
-&lt;/ol&gt;
+<ol>
+  <li>Niveau débutant</li>
+  <li>Niveau intermédiaire</li>
+  <li>Niveau avancé</li>
+</ol>
 
-&lt;!-- end introduction --&gt;
+<!-- end introduction -->
 
-&lt;h2 id=&quot;niveau-débutant&quot;&gt;Niveau débutant&lt;/h2&gt;
+<h2 id="niveau-débutant">Niveau débutant</h2>
 
-&lt;p&gt;Dans le niveau débutant, nous allons voir dans ce blog ce que c’est &lt;strong&gt;Internet&lt;/strong&gt;, les langages web (HTMl, CSS et HTML) qui nous permet de coder une page web et quelques outils pour télécharger et enregistrer notre code source. Bref, nous allons voir sept articles qui vous introduirez aux sujets suivants :&lt;/p&gt;
+<p>Dans le niveau débutant, nous allons voir dans ce blog ce que c’est <strong>Internet</strong>, les langages web (HTMl, CSS et HTML) qui nous permet de coder une page web et quelques outils pour télécharger et enregistrer notre code source. Bref, nous allons voir sept articles qui vous introduirez aux sujets suivants :</p>
 
-&lt;ol&gt;
-  &lt;li&gt;Internet&lt;/li&gt;
-  &lt;li&gt;HTML&lt;/li&gt;
-  &lt;li&gt;CSS&lt;/li&gt;
-  &lt;li&gt;JavaScript&lt;/li&gt;
-  &lt;li&gt;Système de contrôle de version ( Git et GitHub )&lt;/li&gt;
-  &lt;li&gt;Connaissance en sécurité Web&lt;/li&gt;
-  &lt;li&gt;Gestionnaire de paquets (npm,yarn)&lt;/li&gt;
-&lt;/ol&gt;
+<ol>
+  <li>Internet</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>Système de contrôle de version ( Git et GitHub )</li>
+  <li>Connaissance en sécurité Web</li>
+  <li>Gestionnaire de paquets (npm,yarn)</li>
+</ol>
 
-&lt;h2 id=&quot;niveau-intermédiaire&quot;&gt;Niveau intermédiaire&lt;/h2&gt;
+<h2 id="niveau-intermédiaire">Niveau intermédiaire</h2>
 
-&lt;p&gt;Après l’acquisition des notions de base, nous passons au niveau intermédiaire qui va traiter les bons pratiques et les techniques utilisées par les entreprises pour le développement des applications web frontend. nous allons voir les sujets suivants :&lt;/p&gt;
+<p>Après l’acquisition des notions de base, nous passons au niveau intermédiaire qui va traiter les bons pratiques et les techniques utilisées par les entreprises pour le développement des applications web frontend. nous allons voir les sujets suivants :</p>
 
-&lt;ol&gt;
-  &lt;li&gt;Architecture CSS (BEM)&lt;/li&gt;
-  &lt;li&gt;Préprocesseurs CSS (Sass)&lt;/li&gt;
-  &lt;li&gt;Outils de Build ( Webpack)&lt;/li&gt;
-  &lt;li&gt;Choisissez un framework (React, Angular, Vue.js)&lt;/li&gt;
-  &lt;li&gt;CSS Moderne (CSSinJS)&lt;/li&gt;
-  &lt;li&gt;Composants Web (TemplateHTML)&lt;/li&gt;
-  &lt;li&gt;Frameworks CSS(Bootstrap, Reactstrap)&lt;/li&gt;
-  &lt;li&gt;Testez vos applications (Jest)&lt;/li&gt;
-&lt;/ol&gt;
+<ol>
+  <li>Architecture CSS (BEM)</li>
+  <li>Préprocesseurs CSS (Sass)</li>
+  <li>Outils de Build ( Webpack)</li>
+  <li>Choisissez un framework (React, Angular, Vue.js)</li>
+  <li>CSS Moderne (CSSinJS)</li>
+  <li>Composants Web (TemplateHTML)</li>
+  <li>Frameworks CSS(Bootstrap, Reactstrap)</li>
+  <li>Testez vos applications (Jest)</li>
+</ol>
 
-&lt;h2 id=&quot;niveau-avancé&quot;&gt;Niveau avancé&lt;/h2&gt;
+<h2 id="niveau-avancé">Niveau avancé</h2>
 
-&lt;p&gt;Parfois, nous voulons profiter le maximum de nos compétences afin de réaliser des applications super rapide, optimisés et capable de s’exécuter dans des contextes autres qu’un navigateur web tels que l’environement Windows ou Mobile. Dans ce niveau nous allons traiter les sujets suivants :&lt;/p&gt;
+<p>Parfois, nous voulons profiter le maximum de nos compétences afin de réaliser des applications super rapide, optimisés et capable de s’exécuter dans des contextes autres qu’un navigateur web tels que l’environement Windows ou Mobile. Dans ce niveau nous allons traiter les sujets suivants :</p>
 
-&lt;ol&gt;
-  &lt;li&gt;Vérification de type (&lt;a href=&quot;https://www.typescriptlang.org/&quot;&gt;TypeScript&lt;/a&gt;,&lt;a href=&quot;https://flow.org/&quot;&gt;Flow&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://fr.wikipedia.org/wiki/Progressive_web_app&quot;&gt;Apps Web Progressives&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Rendu côté serveur (&lt;a href=&quot;https://nextjs.org/&quot;&gt;Next.js&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;GraphQL&lt;/li&gt;
-  &lt;li&gt;Générateur de sites statiques (Netxt.js,GatsbyJS)&lt;/li&gt;
-  &lt;li&gt;Application mobiles (React Native)&lt;/li&gt;
-  &lt;li&gt;Application lourdes ( Electron)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://fr.wikipedia.org/wiki/WebAssembly&quot;&gt;Web Assembly&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+<ol>
+  <li>Vérification de type (<a href="https://www.typescriptlang.org/">TypeScript</a>,<a href="https://flow.org/">Flow</a>)</li>
+  <li><a href="https://fr.wikipedia.org/wiki/Progressive_web_app">Apps Web Progressives</a></li>
+  <li>Rendu côté serveur (<a href="https://nextjs.org/">Next.js</a>)</li>
+  <li>GraphQL</li>
+  <li>Générateur de sites statiques (Netxt.js,GatsbyJS)</li>
+  <li>Application mobiles (React Native)</li>
+  <li>Application lourdes ( Electron)</li>
+  <li><a href="https://fr.wikipedia.org/wiki/WebAssembly">Web Assembly</a></li>
+</ol>
 
-&lt;h2 id=&quot;résumé&quot;&gt;Résumé&lt;/h2&gt;
+<h2 id="résumé">Résumé</h2>
 
-&lt;p&gt;Dans ce blog, je vous propose un chemin d’apprentissage en trois niveaux ( débutant, intermédiaire et avancé) dont lequel nous allons voir 23 sujets qui peuvent vous rendre un expért en programmation frontend.&lt;/p&gt;
+<p>Dans ce blog, je vous propose un chemin d’apprentissage en trois niveaux ( débutant, intermédiaire et avancé) dont lequel nous allons voir 23 sujets qui peuvent vous rendre un expért en programmation frontend.</p>
 
-&lt;h2 id=&quot;référence&quot;&gt;Référence&lt;/h2&gt;
+<h2 id="référence">Référence</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/kamranahmedse/developer-roadmap&quot; target=&quot;_blank&quot;&gt;developer-roadmap&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="Guide" /><category term="Frontend" /><category term="Internet" /><category term="HTML" /><category term="CSS" /><category term="JavaScript" /><category term="Git" /><category term="GitHub" /><category term="sécurité Web" /><category term="npm" /><category term="yarn" /><category term="BEM" /><category term="Sass" /><category term="Webpack" /><category term="React" /><category term="Angular" /><category term="Vue.js" /><category term="CSSinJS" /><category term="TemplateHTML" /><category term="Bootstrap" /><category term="Reactstrap" /><category term="Jest" /><category term="TypeScript" /><category term="Flow" /><category term="Next.js" /><category term="GraphQL" /><category term="Electron" /><summary type="html">Pour devenir un développeur frontend expérimenté, je vous propose un chemin d’apprentissage en trois phases ou niveaux : Niveau débutant Niveau intermédiaire Niveau avancé</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://codeur-academy.com/images/d%C3%A9veloppeur-frontend.jpg" /><media:content medium="image" url="https://codeur-academy.com/images/d%C3%A9veloppeur-frontend.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Qu’est-ce que Gravatar ?</title><link href="https://codeur-academy.com/gravatar/" rel="alternate" type="text/html" title="Qu’est-ce que Gravatar ?" /><published>2020-06-10T00:00:00+01:00</published><updated>2020-06-10T00:00:00+01:00</updated><id>https://codeur-academy.com/gravatar</id><content type="html" xml:base="https://codeur-academy.com/gravatar/">&lt;p&gt;Un « avatar » est une image qui vous représente en ligne, une petite image qui apparaît à côté de votre nom lorsque vous interagissez avec des sites Web.&lt;/p&gt;
+<ul>
+  <li><a href="https://github.com/kamranahmedse/developer-roadmap" target="_blank">developer-roadmap</a></li>
+</ul>]]></content><author><name></name></author><category term="Guide" /><category term="Frontend" /><category term="Internet" /><category term="HTML" /><category term="CSS" /><category term="JavaScript" /><category term="Git" /><category term="GitHub" /><category term="sécurité Web" /><category term="npm" /><category term="yarn" /><category term="BEM" /><category term="Sass" /><category term="Webpack" /><category term="React" /><category term="Angular" /><category term="Vue.js" /><category term="CSSinJS" /><category term="TemplateHTML" /><category term="Bootstrap" /><category term="Reactstrap" /><category term="Jest" /><category term="TypeScript" /><category term="Flow" /><category term="Next.js" /><category term="GraphQL" /><category term="Electron" /><summary type="html"><![CDATA[Guide étape par étape pour devenir un développeur frontend moderne]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://codeur-academy.com/images/d%C3%A9veloppeur-frontend.jpg" /><media:content medium="image" url="https://codeur-academy.com/images/d%C3%A9veloppeur-frontend.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Qu’est-ce que Gravatar ?</title><link href="https://codeur-academy.com/gravatar/" rel="alternate" type="text/html" title="Qu’est-ce que Gravatar ?" /><published>2020-06-10T00:00:00+01:00</published><updated>2020-06-10T00:00:00+01:00</updated><id>https://codeur-academy.com/gravatar</id><content type="html" xml:base="https://codeur-academy.com/gravatar/"><![CDATA[<p>Un « avatar » est une image qui vous représente en ligne, une petite image qui apparaît à côté de votre nom lorsque vous interagissez avec des sites Web.</p>
 
-&lt;p&gt;Gravatar est un service Web gratuit de centralisation d’avatar racheté en 2007 par Automattic, la société qui édite WordPress.com.&lt;/p&gt;
+<p>Gravatar est un service Web gratuit de centralisation d’avatar racheté en 2007 par Automattic, la société qui édite WordPress.com.</p>
 
-&lt;p&gt;Le nom correspond à l’abréviation de « globally recognized avatar ».&lt;/p&gt;
+<p>Le nom correspond à l’abréviation de « globally recognized avatar ».</p>
 
-&lt;p&gt;Grâce à Gravatar, vous pouvez associer une image publique (un avatar) à une adresse e-mail.&lt;/p&gt;
+<p>Grâce à Gravatar, vous pouvez associer une image publique (un avatar) à une adresse e-mail.</p>
 
-&lt;p&gt;Cet avatar vous suivra lors de vos interactions en ligne, tant sur WordPress (encart d’auteur, commentaires, administration…) qu’ailleurs sur le web (autres CMS, forums ou des services comme Gmail).&lt;/p&gt;
+<p>Cet avatar vous suivra lors de vos interactions en ligne, tant sur WordPress (encart d’auteur, commentaires, administration…) qu’ailleurs sur le web (autres CMS, forums ou des services comme Gmail).</p>
 
-&lt;p&gt;Si vous utilisez plusieurs e-mails, vous pouvez les rattacher à votre compte Gravatar et leur associer les images de votre choix (vous n’avez pas besoin de créer de nouveau compte).&lt;/p&gt;
+<p>Si vous utilisez plusieurs e-mails, vous pouvez les rattacher à votre compte Gravatar et leur associer les images de votre choix (vous n’avez pas besoin de créer de nouveau compte).</p>
 
-&lt;h2 id=&quot;références&quot;&gt;Références&lt;/h2&gt;
+<h2 id="références">Références</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gravatar.com&quot;&gt;gravatar.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="service Web" /><category term="avatar" /><summary type="html">Un « avatar » est une image qui vous représente en ligne, une petite image qui apparaît à côté de votre nom lorsque vous interagissez avec des sites Web. Gravatar est un service Web gratuit de centralisation d’avatar racheté en 2007 par Automattic, la société qui édite WordPress.com. Le nom correspond à l’abréviation de « globally recognized avatar ». Grâce à Gravatar, vous pouvez associer une image publique (un avatar) à une adresse e-mail. Cet avatar vous suivra lors de vos interactions en ligne, tant sur WordPress (encart d’auteur, commentaires, administration…) qu’ailleurs sur le web (autres CMS, forums ou des services comme Gmail). Si vous utilisez plusieurs e-mails, vous pouvez les rattacher à votre compte Gravatar et leur associer les images de votre choix (vous n’avez pas besoin de créer de nouveau compte). Références gravatar.com</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://codeur-academy.com/assets/images/outils/gravatar.jpg" /><media:content medium="image" url="https://codeur-academy.com/assets/images/outils/gravatar.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<ul>
+  <li><a href="https://gravatar.com">gravatar.com</a></li>
+</ul>]]></content><author><name></name></author><category term="service Web" /><category term="avatar" /><summary type="html"><![CDATA[Gravatar (abréviation de globally recognized avatar) est un service de centralisation d'avatar.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://codeur-academy.com/assets/images/outils/gravatar.jpg" /><media:content medium="image" url="https://codeur-academy.com/assets/images/outils/gravatar.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
