@@ -10,8 +10,14 @@
 
     {% assign formation_web = site.formations | where: "parcour_reference", "développeur-web" | sort : "order"  %}
     {% for item in formation_web %}
-    <li class="menu-item {% if page.url == item.url %}current{% endif %}">
-      <a class="menu-link" href="{{item.url}}" style="padding-top: 27px; padding-bottom: 27px;">
+      {% if item.book %}
+      {% assign url = item.book  %}
+      {% else %}
+      {% assign url = item.url  %}
+      {% endif %}
+
+    <li class="menu-item {% if page.url == url %}current{% endif %}">
+      <a class="menu-link" href="{{url}}" style="padding-top: 27px; padding-bottom: 27px;">
         <div><i class="{{item.icon}}"></i>{{item.menu_title}}<i class="icon-angle-down"></i></div>
       </a>
     </li>

@@ -1,5 +1,5 @@
 <div class="row">
-    {% assign formation_ordered = site.formations | where: "parcour_reference", "développeur-web" | sort : "order"  %}
+    {% assign formation_ordered = site.formations | where: "parcour_reference", include.parcour_reference | sort : "order"  %}
     {% for formation in formation_ordered %}
     {% include formationbox.html %}
     {% endfor %}   

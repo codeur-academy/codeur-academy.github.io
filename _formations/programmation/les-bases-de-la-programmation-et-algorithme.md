@@ -1,8 +1,9 @@
 ---
-layout: formation
+layout: formations
 title:  "Les bases de la programmation et algorithme"
 link_title : "Algorithme"
 categories: [Programmation] 
+parcour_reference: programmation
 technologies: [algorithme]
 description: Apprendre les bases et les 4 ordres de la programmation -  Affectation, Entrée/Sortie, Condition, Boucle en Pseudo-code.
 image : assets/images/formations/formation-bases-programmation-et-algorithme.jpg

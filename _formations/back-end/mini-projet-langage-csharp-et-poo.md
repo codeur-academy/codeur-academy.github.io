@@ -1,5 +1,5 @@
 ---
-layout: formation
+layout: formations
 title:  "Mini projet langage C# et POO avec code source"
 link_title : "Mini projet C#"
 categories: [Back-end]

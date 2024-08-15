@@ -1,8 +1,18 @@
+{% if formation.book %}
+{% assign url = formation.book  %}
+{% else %}
+{% assign url = formation.url  %}
+{% endif %}
+
 <article class="portfolio-item {% if include.carousel != true %} col-md-4 col-sm-6 col-12{% endif%} {% for category in formation.categories %} pf-{{ category | slugify }} {% endfor %} ">
     <div class="grid-inner">
         <div class="portfolio-image">
             <a href="portfolio-single.html">
+                {% if formation.image %}
                 <img  src="{{ site.baseurl }}/{{ formation.image }}" alt="{{ formation.title }}"> 
+                {% else %}
+                <img  src="{{ site.baseurl }}/images/article.jpg" alt="{{ formation.title }}">
+                {% endif%}
             </a>
             <div class="bg-overlay">
                 <div class="bg-overlay-content dark" data-hover-animate="fadeIn">
@@ -14,14 +24,15 @@
                     {% endif %}
 
 
-                    
-                    <a href="{{ site.baseurl }}{{ formation.url }}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-book-open"></i></a>
+                   
+
+                    <a href="{{ site.baseurl }}{{ url}}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-book-open"></i></a>
                 </div>
                 <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
             </div>
         </div>
         <div class="portfolio-desc">
-            <h3><a href="{{ site.baseurl }}{{ formation.url }}">{{ formation.title }}</a></h3>
+            <h3><a href="{{ site.baseurl }}{{ url }}">{{ formation.title }}</a></h3>
            
             <!-- <span><a href="#">Media</a>, <a href="#">Icons</a></span> -->
         </div>

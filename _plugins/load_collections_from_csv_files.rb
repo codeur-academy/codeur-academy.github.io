@@ -10,7 +10,7 @@ module Jekyll
     class FromCsvFile
       
       def initialize()
-
+        @sheet_tables_name = "menu"
         @data_directory = "_data/collections"
         sheet_id = "1k1lucfCr9yOnb_Goft4lmB16UQiH-dpMMIFdc3sW2yo"       
         @base_url_sheet = "https://docs.google.com/spreadsheets/d/#{sheet_id}/gviz/tq?tqx=out:csv&sheet="
@@ -242,7 +242,7 @@ module Jekyll
       def download_all_collection_csv_files_if_notexist
        
         menu_csv_data = nil
-        sheet_name = "menu"
+        sheet_name = @sheet_tables_name
         url_sheet = @base_url_sheet + sheet_name
         csv_file_name = "#{@data_directory}/#{sheet_name}.csv"
       

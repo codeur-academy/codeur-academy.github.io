@@ -25,7 +25,6 @@
         "_config.dev.yml": true,
         "build.ps1": true,
         "open.ps1": true,
-        "serve.ps1": true,
         "js": true,
         "images": true,
         "_posts": true,
