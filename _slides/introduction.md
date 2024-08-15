@@ -6,7 +6,7 @@ paragraphe: 'Devenez développeur web full-stack. Maîtrisez HTML, CSS, JavaScri
   PHP et Laravel grâce à des projets concrets. Formation en ligne avec accompagnement
   personnalisé d''un expert. '
 action_name: Démarrez dès maintenant votre carrière !
-action_link: "/formations"
+action_link: "/html-css-js"
 ordre: '1'
 image: "/Content/CodeurAcademy/images/slider/slide1.jpg"
 ---

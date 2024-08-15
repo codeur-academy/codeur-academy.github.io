@@ -12,4 +12,5 @@ permalink: développeur-web/html-css-js
 layout: formations
 published: true
 book: html-css-js
+image: assets/images/formations/bootcamp-front-end.png
 ---

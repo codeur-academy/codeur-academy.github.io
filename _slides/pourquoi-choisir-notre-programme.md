@@ -6,7 +6,7 @@ paragraphe: Formation complète et flexible. Apprenez à votre rythme avec un tu
   dédié. Accès 24/7 à des ressources pédagogiques variées. Progression garantie grâce
   à un suivi personnalisé.
 action_name: Démarrez dès maintenant votre carrière !
-action_link: "/formations"
+action_link: "/html-css-js"
 ordre: '2'
 image: ''
 ---

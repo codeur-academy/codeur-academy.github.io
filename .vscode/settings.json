@@ -10,7 +10,6 @@
         "_sass": true,
         ".jekyll-cache": true,
         ".vscode": true,
-        "assets": true,
         "Content\\CodeurAcademy\\images": true,
         "Content\\CodeurAcademy": true,
         "Content": true,
@@ -26,10 +25,12 @@
         "build.ps1": true,
         "open.ps1": true,
         "js": true,
-        "images": true,
         "_posts": true,
         "_drafts": true,
         "_draft": true,
-        "_deleted_formations": true
+        "_deleted_formations": true,
+        "assets\\css": true,
+        "assets\\fonts": true,
+        "assets\\js": true
     }
 }
